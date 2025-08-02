@@ -82,7 +82,7 @@ def get_cluster(text: str, clusters):
             "You need to analyze the following text input, and choose the best object from the provided context"
         )
         chat.add_user_message(
-            "Once you have the correct, you will login to the cluster with the right values"
+            "Once you have the correct object, you will login to the cluster with the right values"
         )
         chat.add_user_message("Context: " + json.dumps(clusters, indent=2))
         chat.add_user_message(f"Text Input: {text}")
