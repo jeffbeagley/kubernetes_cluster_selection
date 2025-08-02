@@ -5,6 +5,8 @@ This project helps you select and manage Kubernetes clusters.
 ## Requirements
 
 - [Docker](https://docs.docker.com/get-docker/) installed on your system.
+- [LM Studio](https://lmstudio.ai/) installed and running.
+	- Download and run the "google/gemma-3-12b" model in LM Studio.
 
 ## Building the Container
 
